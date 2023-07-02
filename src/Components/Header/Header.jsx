@@ -3,7 +3,7 @@ import './Header.css'
 import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 
-import { setTheme } from '../../Redux Toolkit/ThemeSlices'
+import { setTheme } from '../Redux Toolkit/ThemeSlices'
 
 const Header = () => {
     
